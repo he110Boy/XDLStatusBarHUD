@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243B4B621C6CDF8E00E467CC /* XDLStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 243B4B5F1C6CDF8E00E467CC /* XDLStatusBarHUD.bundle */; };
+		243B4B631C6CDF8E00E467CC /* XDLStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B4B611C6CDF8E00E467CC /* XDLStatusBarHUD.m */; };
 		24CFA8DD1C6CD64D003D79BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CFA8DC1C6CD64D003D79BF /* main.m */; };
 		24CFA8E01C6CD64D003D79BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CFA8DF1C6CD64D003D79BF /* AppDelegate.m */; };
 		24CFA8E31C6CD64D003D79BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CFA8E21C6CD64D003D79BF /* ViewController.m */; };
@@ -15,7 +17,6 @@
 		24CFA8EB1C6CD64D003D79BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CFA8E91C6CD64D003D79BF /* LaunchScreen.storyboard */; };
 		24CFA8F61C6CD64D003D79BF /* XDLStatusBarHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CFA8F51C6CD64D003D79BF /* XDLStatusBarHUDExampleTests.m */; };
 		24CFA9011C6CD64D003D79BF /* XDLStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CFA9001C6CD64D003D79BF /* XDLStatusBarHUDExampleUITests.m */; };
-		24CFA91B1C6CDB39003D79BF /* XDLStatusBarHUD in Resources */ = {isa = PBXBuildFile; fileRef = 24CFA91A1C6CDB39003D79BF /* XDLStatusBarHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		243B4B5F1C6CDF8E00E467CC /* XDLStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XDLStatusBarHUD.bundle; sourceTree = "<group>"; };
+		243B4B601C6CDF8E00E467CC /* XDLStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDLStatusBarHUD.h; sourceTree = "<group>"; };
+		243B4B611C6CDF8E00E467CC /* XDLStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDLStatusBarHUD.m; sourceTree = "<group>"; };
 		24CFA8D81C6CD64D003D79BF /* XDLStatusBarHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDLStatusBarHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CFA8DC1C6CD64D003D79BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24CFA8DE1C6CD64D003D79BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,7 +56,6 @@
 		24CFA8FC1C6CD64D003D79BF /* XDLStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDLStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CFA9001C6CD64D003D79BF /* XDLStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDLStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
 		24CFA9021C6CD64D003D79BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24CFA91A1C6CDB39003D79BF /* XDLStatusBarHUD */ = {isa = PBXFileReference; lastKnownFileType = folder; name = XDLStatusBarHUD; path = ../XDLStatusBarHUD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +83,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243B4B5E1C6CDF8E00E467CC /* XDLStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				243B4B5F1C6CDF8E00E467CC /* XDLStatusBarHUD.bundle */,
+				243B4B601C6CDF8E00E467CC /* XDLStatusBarHUD.h */,
+				243B4B611C6CDF8E00E467CC /* XDLStatusBarHUD.m */,
+			);
+			name = XDLStatusBarHUD;
+			path = ../../XDLStatusBarHUD;
+			sourceTree = "<group>";
+		};
 		24CFA8CF1C6CD64D003D79BF = {
 			isa = PBXGroup;
 			children = (
-				24CFA91A1C6CDB39003D79BF /* XDLStatusBarHUD */,
 				24CFA8DA1C6CD64D003D79BF /* XDLStatusBarHUDExample */,
 				24CFA8F41C6CD64D003D79BF /* XDLStatusBarHUDExampleTests */,
 				24CFA8FF1C6CD64D003D79BF /* XDLStatusBarHUDExampleUITests */,
@@ -104,6 +117,7 @@
 		24CFA8DA1C6CD64D003D79BF /* XDLStatusBarHUDExample */ = {
 			isa = PBXGroup;
 			children = (
+				243B4B5E1C6CDF8E00E467CC /* XDLStatusBarHUD */,
 				24CFA8DE1C6CD64D003D79BF /* AppDelegate.h */,
 				24CFA8DF1C6CD64D003D79BF /* AppDelegate.m */,
 				24CFA8E11C6CD64D003D79BF /* ViewController.h */,
@@ -246,8 +260,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243B4B621C6CDF8E00E467CC /* XDLStatusBarHUD.bundle in Resources */,
 				24CFA8EB1C6CD64D003D79BF /* LaunchScreen.storyboard in Resources */,
-				24CFA91B1C6CDB39003D79BF /* XDLStatusBarHUD in Resources */,
 				24CFA8E81C6CD64D003D79BF /* Assets.xcassets in Resources */,
 				24CFA8E61C6CD64D003D79BF /* Main.storyboard in Resources */,
 			);
@@ -276,6 +290,7 @@
 			files = (
 				24CFA8E31C6CD64D003D79BF /* ViewController.m in Sources */,
 				24CFA8E01C6CD64D003D79BF /* AppDelegate.m in Sources */,
+				243B4B631C6CDF8E00E467CC /* XDLStatusBarHUD.m in Sources */,
 				24CFA8DD1C6CD64D003D79BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-//#import "XDLStatusBarHUD.h"
+#import "XDLStatusBarHUD.h"
 
 @interface ViewController ()
 
@@ -20,14 +20,19 @@
     
 }
 - (IBAction)showSuccess {
+    [XDLStatusBarHUD showSuccess];
 }
 - (IBAction)showError {
+    [XDLStatusBarHUD showError];
 }
 - (IBAction)showLoad {
+    [XDLStatusBarHUD showLoad];
 }
 - (IBAction)showWord {
+    [XDLStatusBarHUD showWord];
 }
 - (IBAction)hide {
+    [XDLStatusBarHUD hide];
 }
 
 @end
